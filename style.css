@@ -1,0 +1,149 @@
+html{
+    background-color:transparent;
+}
+
+.main-heading{
+    display:flex;
+    flex-direction:column;
+    padding:40px;
+    gap:0px;
+    background-color: #f9dbba;
+}
+
+.joke-maybe{
+    align-self:self-end;
+}
+
+.rocket-picture{
+    height:300px;
+    width:300px;
+    align-self:center;
+}
+
+.blurb{
+    margin-left:40px;
+    padding-bottom: 20px;
+    padding-top:200px;
+    padding-right: 30px;
+}
+
+.resume-element{
+    font-weight: 900;
+}
+.resume-element:link{
+    color:#000000;
+    font-weight: 900;
+}
+
+#resume-picture{
+    padding-top:10px;
+    height:100px;
+}
+
+.projects{
+    margin-left:40px;
+}
+
+.projects-link:link{
+    color:#000000;
+    font-weight: 700;
+}
+
+
+.travel-pictures{
+    display:flex;
+    margin-left:40px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap:10px;
+    padding-bottom:40px;
+}
+
+.travel-background{
+    background-color: #5B99C2;
+    margin-top: 200px;
+}
+
+#travels{
+    margin-left: 40px;
+}
+
+.kor-img{
+    width:48%;
+    min-width:300px;
+}
+
+#korea-architecture{
+    width:100%;
+}
+
+.jpn-img{
+    width:48%;
+    min-width:300px;
+}
+
+#japan-architecture{
+    width:100%;
+}
+
+.vikingr{
+    width:48%;
+    min-width:300px;
+}
+
+#storm{
+    width:100%;
+}
+
+.space-lander{
+    width:48%;
+    min-width:300px;
+}
+
+#lander{
+    width:100%;
+}
+
+.footer{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:40px;
+    background-color: #1A4870;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.copyright{
+    color:#F9DBBA;
+}
+
+.site-menu{
+
+    display:flex;
+    flex-direction:column;
+    align-items: flex-end;
+    margin-bottom:40px;
+}
+
+
+/* If the link is unvisited you see this color*/
+a:link {
+    color:#F9DBBA;
+    text-decoration: none;
+}
+
+/* If the link is visited you see this color*/
+a:visited {
+    color:#5B99C2;
+}
+
+/* On placing mouse over the link */
+a:hover {
+    color: rgb(165, 150, 255);
+    text-decoration: underline;
+}
+
+/* If the click the link,  you see this color*/
+a:active {
+    color: #179BAE;
+}
